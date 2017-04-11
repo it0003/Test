@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         mNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
         fragmentManager = getSupportFragmentManager();
         mShowFragment = new HomeFragment();
+        initData();
+    }
+
+    private void initData() {
     }
 
     @Override
